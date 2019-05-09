@@ -1,0 +1,6 @@
+[submodule "ui"]
+	path = ui
+	url = git@gitlab.schoolsoft.cn:qwang/www.git
+[submodule "xiaohuidocker"]
+	path = xiaohuidocker
+	url = git@gitlab.schoolsoft.cn:qwang/xiaohuidocker.git
