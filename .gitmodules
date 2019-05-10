@@ -1,6 +1,0 @@
-[submodule "ui"]
-	path = www
-	url = https://github.com/aiaiwuai/ui.git
-[submodule "xiaohuidocker"]
-	path = xiaohuidocker
-	url = https://github.com/aiaiwuai/xiaohuidocker.git

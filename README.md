@@ -1,13 +1,20 @@
 # cebsdocker
 ## docker and ui
 ```
-git clone git@github.com:aiaiwuai/cebsdocker.git
-git submodule init
-git submodule update
+mkdir ./somedir
+cd ./somedir
+git clone git@github.com:aiaiwuai/ui.git www
+git clone git@github.com:aiaiwuai/xiaohuidocker.git xiaohuidocke
+git clone git@github.com:Baxianxiahai/huicloud.git
+cd huicloud
+git checkout qwangdev
+cd ../
+git clone git@github.com:Baxianxiahai/med.git
+cd med
+git checkout qwangdev
+cd ../
+mkdir ./db
 ```  
-## branch
-med and huicloud 均切换到qwangdev 分支,并和上述文件夹平行,新建平行文件夹db 用于持久化数据
-
 ## 安装docker
 安装docker(系统不限 win/linux/mac 均可)
 确保docker  docker-compose 可用
