@@ -1,6 +1,6 @@
 [submodule "ui"]
-	path = ui
-	url = http://gitlab.schoolsoft.cn/qwang/www.git
+	path = www
+	url = https://github.com/aiaiwuai/ui.git
 [submodule "xiaohuidocker"]
 	path = xiaohuidocker
-	url = http://gitlab.schoolsoft.cn/qwang/xiaohuidocker.git
+	url = https://github.com/aiaiwuai/xiaohuidocker.git
