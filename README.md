@@ -4,7 +4,7 @@
 mkdir ./somedir
 cd ./somedir
 git clone git@github.com:aiaiwuai/ui.git www
-git clone git@github.com:aiaiwuai/xiaohuidocker.git xiaohuidocke
+git clone git@github.com:aiaiwuai/xiaohuidocker.git xiaohuidocker
 git clone git@github.com:Baxianxiahai/huicloud.git
 cd huicloud
 git checkout qwangdev
