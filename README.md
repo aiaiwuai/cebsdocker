@@ -9,7 +9,7 @@ git submodule update
 med and huicloud 均切换到qwangdev 分支,并和上述文件夹平行,新建平行文件夹db 用于持久化数据
 
 ## 安装docker
-安装docker
+安装docker(系统不限 win/linux/mac 均可)
 确保docker  docker-composer 可用
 ```
 cd xiaohuidocker
