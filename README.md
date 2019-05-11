@@ -30,3 +30,11 @@ docker exec -it hst /bin/bash
 python PkgUt/_UtEntry.py
 ## 重启tup
 docker-compose -f stack.yml up tup
+
+## 端口
+数据库管理
+127.0.0.1:8888
+UI
+127.0.0.1:7589
+MQTT WEB 管理
+127.0.0.1:18083
