@@ -20,5 +20,13 @@ mkdir ./db
 确保docker  docker-compose 可用
 ```
 cd xiaohuidocker
+
 docker-compose -f stack.yml up
+docker-compose -f stack.yml [up|restart] [tup|hst|ui....]
+docker-compose -f stack.yml logs -f tup
 ```
+## 初始化hst数据
+docker exec -it hst /bin/bash
+python PkgUt/_UtEntry.py
+## 重启tup
+docker-compose -f stack.yml up tup
